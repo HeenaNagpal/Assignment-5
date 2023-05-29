@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Assignment 5 </title>
+  </head>
+  <body>
+		<!-- your content goes here! -->
+    <div id= "header" class="container">
+
+  
+
+      </div>
+    <div id= "mainsection" class="container">
+
+    <h1>
+      CSS SELECTORS 
+    </h1>
+    
+    <p>
+      CSS Selectors are used to select HTML elements based on their element name, id, attributes, etc. 
+      It can select one or more elements simultaneously.
+    </p>
+    <p>
+      CSS selectors define the pattern to select elements to which a set of CSS rules are then applied.
+
+      CSS selectors can be grouped into the following categories based on the type of elements they can select.
+    </p>
+
+    <h3>Class Selector</h3>
+    
+    <p>
+      Selects all elements that have the given class attribute.
+      
+      </p>
+    <p>
+    
+      <span>Syntax: .classname</span>
+    </p>
+    <p id="section">
+    
+      Example: .index will match any element that has class="index"
+      
+    </p>
+
+    <h3>
+      ID selector
+      
+    </h3>
+    
+    <p>
+      Selects an element based on the value of its id attribute.</p>
+    <p>
+      There should be only one element with a given ID in a document.
+      
+    </p>
+    <p>
+    
+      <span>Syntax: #idname</span>
+    </p>
+    <p id="section">
+    
+      Example: #section will match the element that has id="section".
+    
+    </p>
+
+    <h3 id="section1">
+      Descendant Combinator
+    
+    </h3>
+
+    <p>
+      The " " (space) combinator selects nodes that are descendants of the first element.
+    </p>
+
+    <p>
+      There should be only one element with a given ID in a document.
+    </p>
+
+    <p >
+      <span>Syntax: A B</span>
+    </p>
+    <p id="section">
+    
+      Example: div span will match all span elements that are inside a div element.
+    
+    </p>
+    
+
+  <h3 id="section1">
+    Child Combinator
+  
+  </h3>
+
+  <p>
+    The > combinator selects nodes that are direct children of the first element.
+  </p>
+
+  <p>
+    
+    There should be only one element with a given ID in a document.
+  </p>
+
+  <p >
+    <span>Syntax: A > B</span>
+  </p>
+  <p id="section">
+  
+    Example: ul > li will match all <span>li</span> elements that are nested directly inside a <span>ul</span> element.
+  
+  </p>
+  </div>
+  <div class="container">
+
+    <h1>
+      CSS POSITIONING
+    </h1>
+    <p>
+      The position property specifies the type of positioning method used for an element.
+
+There are five different position values:
+<ol>
+  <li>Static</li>
+  <li>Relative</li>
+  <li>Fixed</li>
+  <li>Absolute</li>
+  <LI>Sticky</LI>
+  </ol>
+
+  </p>
+  
+  <h3 id="section2">position: static;</h3>
+    
+    <p>
+      Static positioned elements are not affected by the top, bottom, left, and right properties.
+      
+      </p>
+    <p>
+    
+      <span>position: static;</span>
+    </p>
+    <p id="section">
+    
+      Example: 
+      <div id="div-1" class="block">1</div>
+    <div id="div-2" class="block">2</div>
+    <div id="div-3"class="block">3</div>
+      
+    </p>
+
+    <h3 id="section2">
+      position: relative;
+      
+    </h3>
+    
+    <p>
+      When assigned position: relative, an element follows the render flow of the page, <br>
+      but will be shifted relative to its initial position.</p>
+    
+    <p>
+    
+      <span>position: relative</span>
+    </p>
+    <p id="section">
+    
+      Example: 
+      <div id="div-1" class="block">1</div>
+    <div id="div-4" class="block">2</div>
+    <div id="div-3"class="block">3</div>
+    
+    </p>
+    <h3 id="section2">
+      position: fixed;
+      
+    </h3>
+    
+    <p>
+      An element with position: fixed; is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled.<br>
+       The top, right, bottom, and left properties are used to position the element.</p>
+    
+    <p>
+    
+      <span>position: fixed;
+      </span>
+    </p>
+    <p id="section">
+    
+      Example: 
+      <div id="div-1" class="block">1</div>
+    <div id="div-5" class="block">2</div>
+    <div id="div-3"class="block">3</div>
+    
+    </p>
+    <h3 id="section2">
+      position: absolute;
+      
+    </h3>
+    
+    <p>
+      An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed).</p>
+    
+    <p>
+    
+      <span>position: absolute;
+      </span>
+    </p>
+    <p id="section">
+    
+      Example: 
+      <div id="div-1" class="block">1</div>
+      <div id=container1>
+    <div id="div-6" class="block">2</div>
+    </div>
+    <div id="div-3"class="block">3</div>
+    
+    </p>
+    <h3 id="section2">
+      position: sticky;
+      
+    </h3>
+    
+    <p>
+      A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).</p>
+    
+    <p>
+    
+      <span>position: sticky;
+      </span>
+    </p>
+    <p id="section">
+    
+      Example: 
+      <div id="div-1" class="block">1</div>
+    <div id="div-7" class="block">2</div>
+    <div id="div-3"class="block">3</div>
+    <div class="block , generic"></div>
+    <div class="block , generic"></div>
+    <div class="block , generic"></div>
+    <div class="block , generic"></div>
+    <div class="block , generic"></div>
+    <div class="block , generic"></div>
+    <div class="block , generic"></div>
+   
+    
+    </p>
+    </div>
+  
+
+		<script src="js/main.js"></script>
+	</body>
+</html>

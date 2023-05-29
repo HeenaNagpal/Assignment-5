@@ -1,0 +1,108 @@
+#section
+{
+    color: #2b3574;  
+}
+
+#header{
+background-image: url("../images/CSS\ selector.jpeg");
+height: 500px;
+background-repeat: repeat;
+background-position: center; 
+   
+}
+p{
+    color: black;
+}
+span{
+    color: hotpink;
+}
+.container{
+display: block;
+align-content: center;
+padding: 20px;
+margin: 20px;
+border-style: double;
+color: #2b3574;
+border-width: 10px;
+background-color: #faced3;
+
+}
+ div h3{
+    
+    background-color:  whitesmoke;
+    width: 115px;
+    
+}
+
+
+ #section1{
+    width:200px;
+}
+#section2{
+    width:150px;
+}
+#mainsection{
+    background-color: #faced3
+}
+
+h1{
+   color: #2b3574;
+}
+div > ol{
+    color: red;
+}
+.block{
+    width: 75px;
+  height: 75px;
+  margin: 10px;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 75px;
+  color: white;
+  font-size: 24px;
+}
+#div-1 { background-color: #FF5C35; 
+}
+
+#div-2 {
+  position: static;
+  top: 30px;
+  left: 30px;
+  background-color: #0068B1;
+}
+
+#div-3 { background-color: #4FB06D; 
+}
+#div-4 {
+    position: relative;
+    top: 30px;
+    left: 30px;
+    background-color: #0068B1;
+  }
+  #div-5 {
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    background-color: #0068B1;
+  }
+  #div-6 {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    background-color: #0068B1;
+  }
+  #div-7 {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    background-color: #0068B1;
+  }
+  #container1 {
+    background-color: #B6C7D6;
+    width: 200px;
+    height: 150px;
+    position: relative;
+  }
+  .generic { background-color: silver; }
+  
+  body { height: 5100px; }
